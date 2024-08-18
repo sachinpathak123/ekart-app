@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  table th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px;
+    text-transform: uppercase;
+  }
+  table tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  table td {
+    padding: 12px;
+    text-align: left;
+  }
+  table tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+  
+    table thead {
+      display: none;
+    }
+  
+    table tr {
+      display: block;
+      margin-bottom: 0.625em;
+    }
+  
+    table td {
+      display: block;
+      align-items: center;
+      text-align: center;
+      font-size: 0.9em;
+      border-bottom: 1px solid #dddddd;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 45%;
+      padding-left: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    table tr td:last-child {
+      border-bottom: 0;
+    }
+  }
+  .cardimg1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    border-radius: 100%;
+}

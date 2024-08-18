@@ -1,0 +1,47 @@
+   .cardimg {
+    width: 100%;
+    max-width: 250px;
+    height: a9uto;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.597);
+  }
+  
+  .prodcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    max-width: 300px;
+  }
+  
+  .prodcard:hover {
+    border: 1px solid rgba(0, 0, 0, 0.364);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .prodcard {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      max-width: 100%;
+    }
+  
+    .cardimg {
+      max-width: 150px;
+    }
+  }
+  

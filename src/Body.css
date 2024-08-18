@@ -1,0 +1,15 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    .products {
+      gap: 50px;
+    }
+  }
+  

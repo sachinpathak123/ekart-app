@@ -1,0 +1,45 @@
+ const productcard = [
+    {
+        id:1,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/b/n/r/-original-imah2thymnheequd.jpeg?q=70",
+        name:"SmartWatch1",
+        price:"711",
+    },
+    {
+        id:2,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/8/u/s/-original-imahf5ngfckrg5ug.jpeg?q=70",
+        name:"SmartWatch2",
+        price:"711",
+    },
+    {
+        id:3,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/g/w/4/-original-imagxp8uu5pequex.jpeg?q=70",
+        name:"SmartWatch3",
+        price:"711",
+    },
+    {
+        id:4,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/s/d/r/-original-imahfxp84qgzxqgz.jpeg?q=70",
+        name:"SmartWatch4",
+        price:"711",
+    },
+    {
+        id:5,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/3/m/z/-original-imagyxxfutvgy8gm.jpeg?q=70",
+        name:"SmartWatch5",
+        price:"711",
+    },
+    {
+        id:6,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/1/s/c/49-gs-t800-orange-2-android-ios-gamesir-yes-original-imah2hctetmzgg5z.jpeg?q=70",
+        name:"SmartWatch6",
+        price:"711",
+    },
+    {
+        id:7,
+        IMG_URL:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/u/b/o/-original-imagq425qdzgyzhn.jpeg?q=70",
+        name:"SmartWatch7",
+        price:"711",
+    },
+];
+export default productcard;
